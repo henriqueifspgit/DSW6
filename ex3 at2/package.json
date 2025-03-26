@@ -1,0 +1,23 @@
+{
+  "name": "dsw6",
+  "version": "1.0.0",
+  "main": "ex1.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriqueifspgit/DSW6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriqueifspgit/DSW6/issues"
+  },
+  "homepage": "https://github.com/henriqueifspgit/DSW6#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }   
+}
