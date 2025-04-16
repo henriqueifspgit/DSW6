@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consumo de API JSONPlaceholder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>API JSONPlaceholder - Posts</h1>
+    <div class="buttons">
+      <button id="getAll">GET - Todos os Posts</button>
+      <button id="getById">GET - Post por ID</button>
+      <input type="number" id="postId" placeholder="ID do Post">
+      <button id="createPost">POST - Criar Post</button>
+      <button id="updatePost">PUT - Atualizar Post (ID 1)</button>
+      <button id="deletePost">DELETE - Deletar Post (ID 1)</button>
+    </div>
+    <pre id="resultado"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
